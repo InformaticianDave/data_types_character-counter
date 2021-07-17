@@ -1,0 +1,12 @@
+# #Data Types
+#tells you many letters in the input.
+num_char = len(input("What is your name?"))
+
+#variable change, your int variable 'num_char' turns into a string.
+new_num_char = str(num_char)
+
+#prints out the top.
+print("Your name has " + new_num_char + " characters.")
+
+#this identifies the type of function.
+print(type(num_char))
